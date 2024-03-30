@@ -1,0 +1,26 @@
+:host {
+    display: block;
+    width: 300px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    padding: 16px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: #fff; 
+    margin-bottom: 16px; 
+  }
+  
+  h1 {
+    font-size: 20px; 
+    margin-bottom: 8px; 
+  }
+  
+  p {
+    font-size: 16px; 
+    margin-bottom: 8px; 
+  }
+
+  img {
+    max-width: 500px; /* La imagen nunca superará el ancho del contenedor */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+  }
+  
